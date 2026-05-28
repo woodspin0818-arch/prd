@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd.exe /c start http://localhost:3000)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //F //PID 28360)",
+      "Bash(cmd.exe //c start http://127.0.0.1:3000)",
+      "Bash(explorer.exe \"http://127.0.0.1:3000\")",
+      "Bash(npx --version)",
+      "Bash(npx vercel *)",
+      "Bash(npx serve *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3456/index.html)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code} %{redirect_url}\" http://localhost:3456/)",
+      "Bash(curl -s http://localhost:3456/pages/miniprogram-list-empty.html)",
+      "Bash(mkdir -p \"d:\\\\AI产研\\\\004SaaS重构优化\\\\h5-demo\\\\images\")",
+      "Bash(cp \"d:\\\\AI产研\\\\004SaaS重构优化\\\\登录页.jpeg\" \"d:\\\\AI产研\\\\004SaaS重构优化\\\\h5-demo\\\\images\\\\login.jpeg\")",
+      "Bash(cp \"d:\\\\AI产研\\\\004SaaS重构优化\\\\收入流转图.jpg\" \"d:\\\\AI产研\\\\004SaaS重构优化\\\\h5-demo\\\\images\\\\收入流转图.jpg\")",
+      "Bash(start http://localhost:3456)",
+      "Bash(pkill -f \"serve\")",
+      "Bash(python -m http.server 3456)",
+      "Bash(start http://localhost:5678)",
+      "Bash(awk '{print length, NR}' \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\用户申请小程序.html\")",
+      "Bash(sed -n '2,16p;18,43p;45p;47p;49,63p' \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\用户申请小程序.html\")",
+      "Bash(mkdir -p \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\h5-demo\\\\\\\\images\\\\\\\\flow\")",
+      "Bash(grep -o 'data:image/jpeg;base64,[^\"]*' \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\用户申请小程序.html\")",
+      "Bash(ls -la \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\h5-demo\\\\\\\\images\\\\\\\\flow\")",
+      "Bash(grep -o 'flow[A-Z][a-z]*Overlay' \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\用户申请小程序.html\")",
+      "Bash(grep -oP '\\(id=\"[^\"]*Overlay\"|id=\"[^\"]*overlay\"\\)' \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\用户申请小程序.html\")",
+      "Bash(grep -n 'flowFastOverlay\\\\|flowTrialOverlay\\\\|contactOverlay' \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\用户申请小程序.html\")",
+      "Bash(wc -l \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\h5-demo\\\\\\\\pages\\\\\\\\miniprogram-list-empty.html\")",
+      "Bash(wc -c \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\h5-demo\\\\\\\\pages\\\\\\\\miniprogram-list-empty.html\")",
+      "Bash(ls -la \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\h5-demo\\\\\\\\images\")",
+      "Bash(ls \"d:\\\\\\\\AI产研\\\\\\\\004SaaS重构优化\\\\\\\\h5-demo\" -la)",
+      "Bash(npx --yes serve -l 3456 -s .)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3456)"
+    ],
+    "additionalDirectories": [
+      "d:\\AI产研\\004SaaS重构优化",
+      "d:\\AI产研\\004SaaS重构优化\\h5-demo\\images"
+    ]
+  }
+}
